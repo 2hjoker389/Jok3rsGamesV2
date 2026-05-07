@@ -46,7 +46,7 @@ export const Play: React.FC = () => {
           <span className="text-xs font-bold uppercase tracking-[0.2em]">Return to Portal</span>
         </Link>
         <div className="flex items-center gap-3">
-           <span className="text-[10px] font-mono text-indigo-400 uppercase tracking-widest px-3 py-1 bg-indigo-500/10 border border-indigo-500/20 rounded-full">
+           <span className="text-[10px] font-mono text-red-400 uppercase tracking-widest px-3 py-1 bg-red-500/10 border border-red-500/20 rounded-full">
             #{game.category}
           </span>
         </div>
@@ -56,7 +56,7 @@ export const Play: React.FC = () => {
         {/* Game Container */}
         <div 
           id="game-container"
-          className="relative aspect-video w-full bg-black rounded-[2.5rem] overflow-hidden border border-slate-800 shadow-2xl shadow-indigo-500/10"
+          className="relative aspect-video w-full bg-black rounded-[2.5rem] overflow-hidden border border-slate-800 shadow-2xl shadow-red-500/10"
         >
           <iframe 
             key={iframeKey}
@@ -87,7 +87,7 @@ export const Play: React.FC = () => {
             </button>
             <button 
               onClick={toggleFullscreen}
-              className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-indigo-600 text-white font-bold text-xs uppercase tracking-widest shadow-xl shadow-indigo-600/30 hover:bg-indigo-500 hover:scale-[1.02] transition-all active:scale-95"
+              className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-red-600 text-white font-bold text-xs uppercase tracking-widest shadow-xl shadow-red-600/30 hover:bg-red-500 hover:scale-[1.02] transition-all active:scale-95"
             >
               <Maximize2 className="w-4 h-4" />
               Maximize
@@ -100,7 +100,7 @@ export const Play: React.FC = () => {
       <section className="pt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:col-span-2 space-y-4">
           <div className="bg-slate-900/50 border border-slate-800 p-8 rounded-[2rem] space-y-6">
-            <div className="flex items-center gap-3 text-indigo-400">
+            <div className="flex items-center gap-3 text-red-400">
               <Info className="w-5 h-5" />
               <h3 className="text-sm font-bold uppercase tracking-widest font-mono">Game Protocol .02</h3>
             </div>
@@ -120,7 +120,7 @@ export const Play: React.FC = () => {
             <h3 className="text-sm font-bold uppercase tracking-widest font-mono">Transmission</h3>
           </div>
           <div className="space-y-3">
-            <button className="w-full py-4 px-6 rounded-2xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-[10px] font-bold uppercase tracking-[0.2em] hover:bg-indigo-500/20 transition-all text-left">
+            <button className="w-full py-4 px-6 rounded-2xl bg-red-500/10 border border-red-500/20 text-red-400 text-[10px] font-bold uppercase tracking-[0.2em] hover:bg-red-500/20 transition-all text-left">
               Discord Relay
             </button>
             <button className="w-full py-4 px-6 rounded-2xl bg-slate-800 border border-slate-700 text-slate-400 text-[10px] font-bold uppercase tracking-[0.2em] hover:bg-slate-700 transition-all text-left">

@@ -11,11 +11,22 @@ export const Navbar: React.FC = () => {
     <nav className="sticky top-0 z-50 bg-slate-900/80 backdrop-blur-xl border-b border-slate-800 px-6 py-4">
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 bg-indigo-500 rounded-xl flex items-center justify-center font-black text-white shadow-lg shadow-indigo-500/20 group-hover:scale-110 transition-transform">
-            N
-          </div>
-          <span className="text-xl font-bold tracking-tight text-white uppercase">
-            𝕁𝕠𝕜𝕖𝕣𝕤<span className="text-indigo-400">𝔾𝕒𝕞𝕖𝕤</span> 𝕍𝟚
+          <img 
+            src="/logo.png" 
+            alt="JV2 Logo" 
+            className="w-12 h-12 object-contain group-hover:scale-110 transition-transform"
+            onError={(e) => {
+              // Fallback if image isn't found
+              e.currentTarget.style.display = 'none';
+              const next = e.currentTarget.nextElementSibling as HTMLElement;
+              if (next) next.style.display = 'block';
+            }}
+          />
+          <span className="text-xl font-bold tracking-tight text-white uppercase hidden group-hover:block transition-all">
+            𝕁𝕠𝕜𝕖𝕣𝕤<span className="text-red-500">𝔾𝕒𝕞𝕖𝕤</span> 𝕍𝟚
+          </span>
+          <span className="text-xl font-bold tracking-tight text-white uppercase sm:block hidden">
+            𝕁𝕠𝕜𝕖𝕣𝕤<span className="text-red-500">𝔾𝕒𝕞𝕖𝕤</span> 𝕍𝟚
           </span>
         </Link>
 

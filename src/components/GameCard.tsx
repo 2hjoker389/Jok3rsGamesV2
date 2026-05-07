@@ -38,7 +38,7 @@ export const GameCard: React.FC<GameCardProps & { className?: string }> = ({ id,
               #{category}
             </span>
           </div>
-          <h3 className="text-xl font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">
+          <h3 className="text-xl font-bold text-white mb-2 group-hover:text-red-400 transition-colors">
             {title}
           </h3>
           <p className="text-slate-500 text-sm line-clamp-2 leading-relaxed">
@@ -46,7 +46,7 @@ export const GameCard: React.FC<GameCardProps & { className?: string }> = ({ id,
           </p>
           
           <div className="mt-auto pt-6 flex justify-end">
-            <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 group-hover:bg-indigo-500 group-hover:text-white transition-colors">
+            <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 group-hover:bg-red-500 group-hover:text-white transition-colors">
               →
             </div>
           </div>

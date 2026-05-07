@@ -36,15 +36,15 @@ export const Home: React.FC = () => {
     <div className="space-y-10 pb-20">
       {/* Search and Filters Bento Section */}
       <section className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-        <div className="lg:col-span-3 bg-indigo-600 rounded-[2.5rem] p-10 flex flex-col justify-center relative overflow-hidden group border border-indigo-400/20 shadow-2xl shadow-indigo-500/20">
+        <div className="lg:col-span-3 bg-gradient-to-br from-red-600 via-orange-600 to-amber-700 rounded-[2.5rem] p-10 flex flex-col justify-center relative overflow-hidden group border border-white/10 shadow-2xl shadow-red-500/20">
           <div className="absolute top-6 right-6 px-4 py-1.5 bg-white/20 backdrop-blur-md rounded-full text-xs font-bold text-white border border-white/30 uppercase tracking-widest">
             Arcade Portal v2.0
           </div>
           <div className="relative z-10">
             <h1 className="text-5xl md:text-7xl font-black text-white mb-4 tracking-tighter uppercase">
-              𝕁𝕠𝕜𝕖𝕣𝕤<span className="text-indigo-200">𝔾𝕒𝕞𝕖𝕤</span> 𝕍𝟚
+              𝕁𝕠𝕜𝕖𝕣𝕤<span className="text-amber-200">𝔾𝕒𝕞𝕖𝕤</span> 𝕍𝟚
             </h1>
-            <p className="text-indigo-100 text-lg mb-8 max-w-md leading-relaxed">
+            <p className="text-white/80 text-lg mb-8 max-w-md leading-relaxed">
               Premium unblocked gaming experience. Discover {gamesData.length}+ hand-picked titles.
             </p>
             
@@ -54,17 +54,17 @@ export const Home: React.FC = () => {
                 placeholder="Search games..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-white/10 border border-white/20 rounded-2xl py-4 pl-12 pr-4 text-white placeholder:text-indigo-200 focus:outline-none focus:bg-white/20 transition-all backdrop-blur-sm"
+                className="w-full bg-black/20 border border-white/20 rounded-2xl py-4 pl-12 pr-4 text-white placeholder:text-red-100 focus:outline-none focus:bg-black/30 transition-all backdrop-blur-sm"
               />
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-indigo-200" />
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-red-100" />
             </div>
           </div>
           <div className="absolute -right-20 -bottom-20 w-80 h-80 bg-white/10 rounded-full blur-3xl group-hover:bg-white/20 transition-colors" />
         </div>
 
-        <div className="bg-slate-900 border border-slate-800 rounded-[2.5rem] p-8 flex flex-col justify-between hover:border-slate-700 transition-colors">
-          <div className="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center mb-6">
-            <Trophy className="w-7 h-7 text-indigo-500" />
+        <div className="bg-slate-900 border border-slate-800 rounded-[2.5rem] p-8 flex flex-col justify-between hover:border-red-500/30 transition-colors">
+          <div className="w-14 h-14 bg-red-500/10 rounded-2xl flex items-center justify-center mb-6">
+            <Trophy className="w-7 h-7 text-red-500" />
           </div>
           <div>
             <h3 className="text-2xl font-bold text-white">Leaderboards</h3>
@@ -85,8 +85,8 @@ export const Home: React.FC = () => {
             onClick={() => setSelectedCategory(cat)}
             className={`flex items-center justify-center gap-3 p-5 rounded-3xl border transition-all group ${
               selectedCategory === cat
-                ? 'bg-indigo-500 border-indigo-400 shadow-lg shadow-indigo-500/20'
-                : 'bg-slate-900 border-slate-800 hover:bg-slate-800 hover:border-slate-700'
+                ? 'bg-red-600 border-red-500 shadow-lg shadow-red-500/20'
+                : 'bg-stone-900 border-stone-800 hover:bg-stone-800 hover:border-stone-700'
             }`}
           >
             <span className={`text-xl group-hover:scale-125 transition-transform ${selectedCategory === cat ? 'text-white' : 'grayscale group-hover:grayscale-0'}`}>

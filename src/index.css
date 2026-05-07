@@ -5,10 +5,12 @@
   --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
   
-  --color-bento-bg: #020617; /* slate-950 */
-  --color-bento-card: #0f172a; /* slate-900 */
-  --color-bento-accent: #6366f1; /* indigo-500 */
-  --color-bento-border: #1e293b; /* slate-800 */
+  --color-bento-bg: #0c0a09; /* stone-950 */
+  --color-bento-card: #1c1917; /* stone-900 */
+  --color-bento-accent: #ef4444; /* red-500 */
+  --color-bento-border: #292524; /* stone-800 */
+  --color-flame-orange: #f97316;
+  --color-flame-yellow: #facc15;
 }
 
 @layer base {
