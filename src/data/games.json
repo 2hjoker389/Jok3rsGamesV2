@@ -1,0 +1,50 @@
+[
+  {
+    "id": "gorilla-tag",
+    "title": "Gorilla Tag Web",
+    "description": "Reject humanity, return to monke. Run, climb, and jump in this high-intensity VR-style web port.",
+    "category": "Action",
+    "url": "/gorilla-tag.html",
+    "thumbnail": "https://images.unsplash.com/photo-1581447100595-3a81f5c40bc7?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "Join the numbers and get to the 2048 tile!",
+    "category": "Puzzle",
+    "url": "https://play2048.co/",
+    "thumbnail": "https://images.unsplash.com/photo-1549465220-1d8c554c4269?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "description": "Fast-paced hexagonal puzzle game inspired by Tetris.",
+    "category": "Arcade",
+    "url": "https://hextris.io/",
+    "thumbnail": "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Tiny Bird",
+    "description": "A challenging bird flight simulator. Don't hit the pipes!",
+    "category": "Arcade",
+    "url": "https://flappybird.io/",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "pixel-race",
+    "title": "Pixel Race",
+    "description": "Retro stylized racing with neon aesthetics.",
+    "category": "Racing",
+    "url": "https://www.google.com/logos/2010/pacman10-i.html",
+    "thumbnail": "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "dino-run",
+    "title": "Dino Run",
+    "description": "The classic offline runner, unblocked and ready for action.",
+    "category": "Action",
+    "url": "https://chromedino.com/",
+    "thumbnail": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?q=80&w=400&h=300&auto=format&fit=crop"
+  }
+]
